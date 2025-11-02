@@ -4,9 +4,9 @@ import { NextResponse } from 'next/server'
 export async function GET() {
   try {
     const db = await mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
-      password: 'Egoregor4ik',
+      host: '192.168.0.101',
+      user: 'client',
+      password: '12345',
       database: 'selmashapp'
     })
 
@@ -17,3 +17,4 @@ export async function GET() {
     return NextResponse.json({ error: 'Ошибка подключения к базе' }, { status: 500 })
   }
 }
+
