@@ -14,4 +14,8 @@ export const navElements: INavElement[] = [
     text: "О нас",
     url: `${PAGES.ABOUTUS}`,
   },
+  {
+    text: "Профиль",
+    url: `${PAGES.PROFILE}`,
+  },
 ];

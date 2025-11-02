@@ -13,7 +13,7 @@ export function NavPanel({ navElements }: Props) {
   const pathname = usePathname()
 
   return (
-    <nav className="bg-red-700 text-white w-full flex justify-between items-center p-4 fixed z-50">
+    <nav className="bg-red-700 text-white w-full flex justify-between items-center p-4 fixed z-50 top-0">
       <Image
         src="/img/selmashLogo.png"
         alt="Selmash Logo"
