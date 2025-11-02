@@ -1,14 +1,19 @@
-import { NextResponse } from 'next/server'
 import mysql from 'mysql2/promise'
+import { NextResponse } from 'next/server'
 
 export async function GET() {
-  const db = await mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'selmashApp'
-  })
+  try {
+    const db = await mysql.createConnection({
+      host: 'localhost',
+      user: 'root',
+      password: 'Egoregor4ik',
+      database: 'selmashapp'
+    })
 
-  const [rows] = await db.execute('SELECT * FROM cards')
-  return NextResponse.json(rows)
+    const [rows] = await db.execute('SELECT * FROM cards')
+    return NextResponse.json(rows)
+  } catch (error) {
+    console.error('Ошибка API:', error)
+    return NextResponse.json({ error: 'Ошибка подключения к базе' }, { status: 500 })
+  }
 }
