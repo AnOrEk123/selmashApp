@@ -2,7 +2,7 @@
   import { NextResponse } from 'next/server'
 
   const db = mysql.createPool({
-    host: '192.168.0.101',
+    host: 'localhost',
     user: 'client',
     password: '12345',
     database: 'selmashapp',

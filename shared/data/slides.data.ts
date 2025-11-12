@@ -2,23 +2,23 @@ import type { ISlide } from "../types/slide.interface";
 
 export const slides: ISlide[] = [
   {
-    text: "Next.js — это фреймворк на базе React, который позволяет создавать быстрые и масштабируемые веб-приложения.",
-    imgUrl: "/images/nextjs-intro.png",
+    text: "Гомсельмаш — один из крупнейших производителей сельскохозяйственной техники в Восточной Европе.",
+    imgUrl: "/images/slider/gomselmash_factory.jpg",
   },
   {
-    text: "Маршрутизация в Next.js основана на файловой системе и поддерживает динамические и групповые маршруты.",
-    imgUrl: "/images/routing.png",
+    text: "Наши зерноуборочные и кормоуборочные комбайны работают на полях более чем в 30 странах мира.",
+    imgUrl: "/images/slider/combine_in_field.jpg",
   },
   {
-    text: "Компонент <Image /> автоматически оптимизирует изображения, улучшая производительность и SEO.",
-    imgUrl: "/images/image-component.png",
+    text: "Мы внедряем современные технологии, чтобы сделать работу аграриев проще и эффективнее.",
+    imgUrl: "/images/slider/modern_tech.jpg",
   },
   {
-    text: "Серверные компоненты и Server Actions позволяют писать логику прямо внутри компонентов.",
-    imgUrl: "/images/server-actions.png",
+    text: "Производство сертифицировано по международным стандартам качества и экологической безопасности.",
+    imgUrl: "/images/slider/quality_control.jpg",
   },
   {
-    text: "Next.js поддерживает ISR, SSR, SSG и CSR — гибкие стратегии рендеринга под любые задачи.",
-    imgUrl: "/images/rendering-strategies.png",
+    text: "Гомсельмаш — надёжный партнёр для тех, кто выбирает мощность, производительность и долговечность.",
+    imgUrl: "/images/slider/team_and_machines.jpg",
   },
 ];

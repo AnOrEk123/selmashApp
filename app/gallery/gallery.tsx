@@ -70,6 +70,7 @@ export default function Gallery() {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-24 p-6">
+      {/*Добавить поле для видео, инструкций*/}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
         <input
           type="text"
